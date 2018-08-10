@@ -10,6 +10,7 @@ const { ConnectedRouter } = routerRedux;
 //获取路由权限组件
 const { AuthorizedRoute } = Authorized;
 
+//RouterConfig
 function RouterConfig({ history, app }) {
     const routerData = getRouterData(app);
     const UserLayout = routerData['/user'].component;
